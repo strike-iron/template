@@ -3,9 +3,11 @@
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
         <header-logo>icon48.svg</header-logo>
-        <custom-favicons>icon16.svg,icon32.svg,icon96.svg,icon300.svg,icon500.svg</custom-favicons>
+        <custom-favicons>
+            icon16.svg,icon32.svg,icon96.svg,icon300.svg,icon500.svg
+        </custom-favicons>
         <web-root>https://majiko.org/PROJECT/</web-root>
-        <product-web-url>https://majiko.org/PROJECT/</product-web-url>
+        <product-web-url>https://majiko.org/</product-web-url>
 
         <color-preset>vivid</color-preset>
 
@@ -13,14 +15,19 @@
 
         <noindex-content>false</noindex-content>
 
-        <analytics-head-script-file>../.gtm/google-analytics-code.html</analytics-head-script-file>
-        <analytics-body-html-file>../.gtm/google-analytics-noscript.html</analytics-body-html-file>
+        <analytics-head-script-file>../.gtm/google-analytics-code.html
+        </analytics-head-script-file>
+        <analytics-body-html-file>../.gtm/google-analytics-noscript.html
+        </analytics-body-html-file>
 
         <generate-canonicals>true</generate-canonicals>
-        <generate-sitemap-url-prefix>https://majiko.org/PROJECT/</generate-sitemap-url-prefix>
+        <generate-sitemap-url-prefix>https://majiko.org/PROJECT/
+        </generate-sitemap-url-prefix>
 
         <enable-browser-edits>true</enable-browser-edits>
-        <browser-edits-url>https://github.com/strike-iron/PROJECT/tree/main/docs/</browser-edits-url>
+        <browser-edits-url>
+            https://github.com/strike-iron/PROJECT/tree/main/docs/
+        </browser-edits-url>
     </variables>
 
     <build-profile instance="main">
